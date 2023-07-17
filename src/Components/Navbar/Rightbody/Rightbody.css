@@ -1,0 +1,103 @@
+.rightsearch {
+  /* border: 1px solid #e9e9f0; */
+  border-radius: 8px;
+  width: 780px;
+
+  height: auto;
+}
+.FilterByGeneral {
+  padding-left: 6px;
+  cursor: pointer;
+  border: 1px solid #e9e9f0;
+  border-radius: 8px;
+  left: auto!important;
+  z-index: 2;
+  border-width: 1px!important;
+  border-style: solid;
+  border-color: #d4d4e0!important;
+  transition: opacity .2s ease,background-color .2s ease,fill .2s ease;
+  width: 164px;
+  height: 40px;
+  font-family: "TBC Sailec";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #454857;
+  background: #ffffff;
+  border: 1px solid #e9e9f0;
+  border-radius: 8px;
+}
+.FilterByDate {
+  width: 140px;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  padding-left: 6px;
+  padding-right: 0;
+  font-family: "TBC Sailec";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #454857;
+  background: #ffffff;
+  border: 1px solid #e9e9f0;
+  border-radius: 8px;
+  left: auto!important;
+  z-index: 2;
+  border-width: 1px!important;
+  border-style: solid;
+  border-color: #d4d4e0!important;
+  transition: opacity .2s ease,background-color .2s ease,fill .2s ease;
+}
+
+.Period {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.txt {
+  display: flex;
+  font-size: 16px;
+  color: #2d3748;
+  white-space: nowrap;
+}
+
+.FilterItemsBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 70px;
+  border-radius: 10px !important;
+  background-color: #fff;
+  gap: 0.2rem;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.custom-container {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #f1f1f1; /* Replace with your desired background color */
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 4px;
+  font-size: 13px;
+  color: #333333; /* Replace with your desired text color */
+  margin-top: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.custom-icon {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.custom-svg {
+  width: 20px;
+  height: 20px;
+}

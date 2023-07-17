@@ -1,0 +1,333 @@
+.LeftSearch {
+  border-radius: 8px;
+  margin-right: 20px;
+  background: white;
+  border: 1px solid;
+  border-color: #e4e7ed;
+  max-width: 250px;
+}
+svg {
+  width: 24px;
+  height: 24px;
+}
+.vehicle-type-selector {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  display: grid;
+  overflow: hidden;
+  background-color: #f2f3f6;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  transition: 1s;
+}
+.vehicle-type-selector svg {
+  transform: scaleX(-1);
+}
+.vehicle-type {
+  height: 48px;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px;
+  border-style: solid;
+  border-color: #e9e9f0;
+}
+.vehicle-type:hover {
+  background-color: #f7f8fa;
+}
+.vehicle-type-active {
+  width: 100%;
+  border-bottom: 1px;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  border-color: #fd4100;
+  border-width: 100%;
+  border-style: solid;
+  outline: 0;
+  background-color: #f7f8fa;
+}
+.vehicle-type-active > svg > g > path {
+  fill: #fd4100;
+}
+
+.vehicle-parameter-selector label {
+  display: block;
+}
+.vehicle-parameter-selector {
+  align-items: center;
+  position: relative;
+  padding: 0px 24px 24px 24px;
+  border-bottom: 1px solid;
+  border-color: #e9e9f0;
+}
+.vehicle-parameter-selector label {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.dropdown-button {
+  border: 1px;
+  border-style: solid;
+  border-color: #d8dbe2;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.dropdown-button:hover {
+  border-color: #8c929b;
+}
+.dropdown-button > div {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12px;
+  padding-right: 8px;
+  height: 44px;
+  align-items: center;
+}
+.dropdown-button-text {
+  font-size: 13px;
+  color: #6f7383;
+}
+.price-selector {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  padding: 0px 24px 24px 24px;
+}
+.dollar-svg {
+  height: 14px;
+  width: 9px;
+}
+.gel-svg {
+  height: 10px;
+  width: 11px;
+}
+.price-type-div {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.price-type-selector {
+  display: flex;
+  border: 1px;
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #e4e7ed;
+}
+.usd-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.usd-span-active {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  background-color: #282c34;
+  height: 24px;
+  border-radius: 50%;
+}
+.usd-span-active path {
+  fill: white;
+}
+.gel-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gel-span-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #282c34;
+}
+.gel-span-active path {
+  fill: white;
+}
+.price-range {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-range input {
+  width: 100px;
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #5e697d;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: 0;
+}
+.price-range p {
+  width: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #8996ae;
+  font-size: 1.5rem;
+}
+.dash {
+  display: flex;
+  width: 6px;
+  height: 2px;
+  background-color: gray;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.search-button {
+  margin: 0px 24px 24px 24px;
+  width: 210.3px;
+  height: 32px;
+  border-radius: 8px;
+  border: 0;
+  background-color: #fd4100;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.none {
+  display: none;
+}
+
+.dropdown-div-style {
+  margin-top: 10px;
+  position: absolute;
+  max-width: 200.4px;
+  padding: 8px 12px 8px 12px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px #d8dbe2 solid;
+}
+
+.dropdown-div-style {
+  max-height: 200px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Customize the scroll bar */
+.dropdown-div-style::-webkit-scrollbar {
+  width: 2px;
+  color: black;
+  background-color: black;
+}
+
+.dropdown-div-style::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.dropdown-div-style::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.dropdown-div-style::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.dropdown-div-style ul {
+  list-style-type: none;
+}
+.dropdown-div-style input {
+  margin-right: 12px;
+}
+.dropdown-div-style li {
+  padding: 8px 0px;
+}
+
+#deal-dropdown-invisible {
+  display: none;
+}
+
+#model-dropdown-invisible {
+  display: none;
+}
+
+#manufacturer-dropdown-invisible {
+  display: none;
+}
+
+#category-dropdown-invisible {
+  display: none;
+}
+
+.dropdown-wrapper {
+  position: relative;
+  z-index: 2;
+}
+
+.dropdown-div-style li {
+  color: #6f7383;
+}
+
+.parModel {
+  border-bottom: 1px solid #55555580;
+}
+
+
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border-width: 0.1px !important;
+  border-style: solid;
+  border-color: #a4aec1;
+  cursor: pointer;
+  flex-shrink: 0 !important;
+  outline: none;
+  position: relative;
+}
+
+input[type="checkbox"]::before {
+  content: "\2713"; 
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border-width: 0.1px !important;
+  margin-right: 1px;
+  background-color: transparent;
+  margin-left: 2.5px;
+  color: white; 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(255, 60, 0);
+  border-color: rgb(255, 60, 0);
+} */
+
+input[type="checkbox"]:checked::before {
+  background-color: rgb(255, 60, 0);
+  color: white;
+}

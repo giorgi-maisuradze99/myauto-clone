@@ -1,0 +1,141 @@
+.custom-container .custom-icon{
+    height:36px;
+}
+hr{
+    display: none;
+}
+@media (max-width:768px) {
+    .nav{
+        padding-left: 0px !important;
+    }
+    hr{
+        display: block;
+        width: 375px;
+        transform: translateY(20px);
+        background-color: #E4E7EB;
+        height: 1px;
+        border: 0.5px;
+    }
+    #ganbajebulitxt{
+        position: absolute;
+        background-color: #eefbf1;
+        left: 235px;
+        top: 30px;
+        border-radius: 6px;
+        padding: 4px 8px 4px 4px;
+    }
+    #ganbajebulitxt .done-mark{
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+    .FilterItemsBar{
+        background-color: transparent !important;
+        overflow: hidden;
+    }
+    .FilterItemsBar img{
+        border-radius: 100%;        
+    }
+    .custom-container{
+        background-color: white;
+    }
+    #coord{
+        display: none;
+    }
+    .specifications #ForViews, .specifications #ForName, .specifications #ForMiddle {
+        margin: 0px;
+    }
+    .left-column{
+        display: none;
+    }
+    .custom-row{
+        display: unset !important;
+    }
+    #coord{
+        width: 100%;
+    }
+    .minibar{
+        display: none !important;
+    }
+    .minicustom{
+        width: 100% !important;
+        display: unset !important;
+    }
+    .rightsearch{
+        width: 100% !important;
+    }
+    .product{
+        display: table;
+        position: relative;
+        width: 100%;
+        padding: 0;
+        margin-top: 0 !important;
+        border-radius: 0px;
+    }
+
+    .product #ForImg{
+        margin-top: 80px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        height: 255px;
+        width: 345px;
+    }
+    .product .specifications{
+        width: 321px;
+    }
+    #location{
+        position: absolute;
+        left: 0px;
+        top: 375px;
+        color: unset;
+    }
+    #ForMiddle{
+        display: block;
+        width: min-content;
+    }
+    .product .specifications #ForName{
+        position: absolute;
+        width: 341px;
+        margin: 0;
+        margin-top: 18px;
+        top: 0;
+        margin-left: 20px;
+    }
+    .product .specifications #ForViews{
+        width: 334px;
+        margin-top: 30px;
+        margin-left: 18px;
+        margin-bottom: 18px;
+    }
+    .product .specifications #ForMiddle-Right{
+        position: absolute;
+        top:0;
+        align-items: center;
+        transform: translateY(40px);
+        height: fit-content;
+        width: fit-content;
+        margin-left: 16px;
+        
+    }
+    .product .specifications #ForMiddle-Right span{
+        font-family: Helvetica Neue LT GEO;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .product .specifications #ForMiddle-Left{
+        display: grid;
+        height: 15px;
+        gap: 6px;
+        grid-template-columns: 1fr 1fr;
+        width: max-content;
+        margin-left: 20px;
+    }
+    .product .specifications #ForMiddle-Left .itm1{
+        width: 135px;
+        height: 15px;
+    }
+    .product .specifications #ForMiddle-Left img{
+        display: none;
+        height: min-content;
+    }
+}

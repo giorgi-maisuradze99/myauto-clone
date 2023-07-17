@@ -1,0 +1,208 @@
+
+
+.product{
+    display: flex;
+    align-items: center;
+    height: 182px;
+    width: 780px;
+    background-color: #FFFFFF;
+    margin-top: 16px;
+    padding:0px 0px 0px 16px; 
+    border-radius: 15px;
+
+}
+
+#ForName{
+
+    height: 18px;
+    width: 545px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+#ForViews{
+    height: 18px;
+    width: 534px;
+    display: flex;
+    justify-content: space-between;    
+
+}
+
+#ForMiddle{
+
+    height: 59px;
+   
+
+
+    width: 534px;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+#ForMiddle-Left{
+    width: 380px ;
+    height: 59px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#ForMiddle-Left img{
+    padding:15px;
+
+}
+
+
+
+.itm1{
+    height: 29.5px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+
+
+    font-family: "TBC Sailec", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0;
+
+}
+
+
+#ForMiddle-Right{
+    height: 59px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+#ForMiddle-Right span{
+    padding: 5px;
+}
+
+#ForImg{
+    height: 149px;
+    width: 186px;
+    border-radius: 14px;
+}
+
+
+.specifications #ForViews,
+.specifications #ForName,
+.specifications #ForMiddle {
+  margin: 24px;
+}
+
+
+#gn span{
+    padding-right: 10px;
+}
+
+
+#carName{
+    font-family: "Helvetica Neue LT GEO", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0;
+    color: #272A37;
+
+
+}
+
+#year{
+width: 44px;
+height: 17px;
+font-family: 'Helvetica Neue LT GEO';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #8C929B;
+}
+
+
+#views{
+    font-family: "Helvetica Neue LT GEO", sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      letter-spacing: 0;
+      text-align: left;
+      color: #6F7383;
+}
+#currency{
+        height: 24px;
+        width: 26px;
+        border-radius: 50px;
+        background-color: #E4E7ED;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2px;
+}
+#value{
+    font-family: "TBC Sailec", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0;
+    margin-right: 8px;
+}
+
+#location{
+
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #6F7383;
+
+}
+
+#ganbajebulitxt{
+    
+font-family: 'TBC Sailec';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 11px;
+color: #26B753;
+
+}
+#gasanbajebelitxt{
+    font-family: 'TBC Sailec';
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 13px;
+color: #FF3B30;
+}
+
+.done-mark{
+
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+
+#coord{
+    display: flex;
+    align-items: center;
+    height: 58px;
+    width: 1050px;
+
+font-family: 'Helvetica Neue LT GEO';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #6F7383;
+    gap: 0.3rem;
+}
+
